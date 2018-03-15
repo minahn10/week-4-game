@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>Starcraft Miner</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="http://code.jquery.com/jquery.js"></script>
+</head>
+<body>
+   <header>
+        <h2 id ="name">Starcraft Miner</h2>
+   </header>
+   <div class="paragraph">
+        <p>You will be given a random number at the start of the game.</p>
+        <br>
+        <p>The four resources below have random values. Click the icons to build up your score.</p>
+        <br>
+        <p>Try to get your score to match the number I gave you in order to win!</p>
+    </div>
+    <div class="start">
+        <div class="total"></div>
+    	
+        <div class="result">
+        	Wins:<div id="wins"></div>
+        	Losses:<div id="losses"></div>
+        </div>
+    </div>
+    <div class="minerals">
+        <img src="assets/images/scminerals1.jpg" width="200" height="250" class="click" id="sc1">
+        <img src="assets/images/scgas.jpg" width="200" height="250" class="click" id="sc2">
+        <img src="assets/images/scminerals2.jpg" width="200" height="250" class="click" id="sc3">
+        <img src="assets/images/sc2gas.jpg" width="200" height="250" class="click" id="sc4">
+   </div>
+   <br>
+   <div class="score">
+        <h5>Your current score is:</h5>
+   </div>
+   <div class="addition"></div>
+   <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
