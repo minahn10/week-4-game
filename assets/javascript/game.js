@@ -27,16 +27,16 @@ var restart = function(){
 	$('.total').empty();
 	$('.total').append(total);
 
-	red = Math.floor((Math.random()* 12) + 1);
-    blue = Math.floor((Math.random()* 12) + 1);
-    yellow = Math.floor((Math.random()* 12) + 1);
-    green = Math.floor((Math.random()* 12) + 1);
+	sc1 = Math.floor((Math.random()* 12) + 1);
+    sc2 = Math.floor((Math.random()* 12) + 1);
+    sc3 = Math.floor((Math.random()* 12) + 1);
+    sc4 = Math.floor((Math.random()* 12) + 1);
 
     updateAddition();
 }
 var logic = function (){
 	if (addition == total) {
-		wins = wins + 1;
+		wins = wins + 1;    
 		
 		restart();
 	}else if(addition > total){
